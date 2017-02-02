@@ -1,0 +1,5 @@
+start F
+rule F -> FLFR
+depth 1
+cmd S fd
+cmd R bk

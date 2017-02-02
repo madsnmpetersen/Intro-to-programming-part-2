@@ -1,0 +1,15 @@
+start F R F R F R
+
+rule F -> F L F R F L F
+
+length 2
+
+depth 5
+
+cmd F fd
+
+cmd L lt 60
+
+cmd R rt 120
+
+

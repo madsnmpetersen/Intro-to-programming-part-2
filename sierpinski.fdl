@@ -1,0 +1,15 @@
+start F
+
+rule F -> G R F R G
+
+rule G -> F L G L F
+
+length 1
+depth 6
+cmd F fd
+
+cmd G fd
+
+cmd L lt 60
+
+cmd R rt 60
