@@ -1,7 +1,7 @@
 # Imports
 import os, sys, random
 from time import gmtime, strftime
-from mine.FractalWorld import *
+from FractalWorld import *
 
 height1 = 1000 #height and width of the canvas created for drawing on.
 width1 = 1400
